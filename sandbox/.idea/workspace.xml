@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="247f2600-f6b7-4d52-a925-65089b66f8eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="247f2600-f6b7-4d52-a925-65089b66f8eb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Primes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="191">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +76,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Equation.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/sandbox/EquationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Equality.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Primes.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/sandbox/PrimeTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Primes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Collections.java" />
       </list>
     </option>
   </component>
@@ -76,7 +87,9 @@
     <option name="width" value="1934" />
     <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -165,7 +178,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PrimeTests">
+  <component name="RunManager" selected="Application.Collections">
+    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.Collections" />
+      <module name="sandbox.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Equality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.Equality" />
       <module name="sandbox.main" />
@@ -293,14 +319,15 @@
       <item itemvalue="TestNG.EquationTests" />
       <item itemvalue="Application.Equality" />
       <item itemvalue="TestNG.PrimeTests" />
+      <item itemvalue="Application.Collections" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collections" />
         <item itemvalue="TestNG.PrimeTests" />
         <item itemvalue="Application.Equality" />
         <item itemvalue="TestNG.EquationTests" />
         <item itemvalue="TestNG.EquationTests" />
-        <item itemvalue="Application.MyFirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -345,6 +372,9 @@
     <history-entry file="PrimeTests - 2020.10.14 at 22h 13m 55s.xml">
       <configuration name="PrimeTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PrimeTests - 2020.10.14 at 22h 16m 16s.xml">
+      <configuration name="PrimeTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -355,7 +385,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3147651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -364,7 +394,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34844193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34844193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,8 +457,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Primes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="191">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/sandbox/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
