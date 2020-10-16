@@ -6,7 +6,7 @@ import ru.stqa.pft.addressbook.model.GroupData;
 
 public class GroupCreationTests extends TestBase {
 
-  @Test
+  @Test(enabled = false)
   public void testGroupCreation() throws Exception {
     app.getNavigationHelper().gotoGroupPage();
     int before = app.getGroupHelper().getGroupCount();
