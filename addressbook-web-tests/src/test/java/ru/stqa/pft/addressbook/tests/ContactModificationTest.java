@@ -4,8 +4,7 @@ import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
 
 public class ContactModificationTest extends TestBase{
-
-  @Test(enabled = false)
+  @Test
   public void TestContactModification() {
     app.getNavigationHelper().gotoHomePage();
     app.getContactHelper().initContactModification();
