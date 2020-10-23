@@ -40,9 +40,9 @@ public class ApplicationManager {
 
   public void stop() { wd.quit();  }
 
-  public GroupHelper getGroupHelper() { return groupHelper;  }
+  public GroupHelper group() { return groupHelper;  }
 
-  public NavigationHelper getNavigationHelper() { return navigationHelper;  }
+  public NavigationHelper goTo() { return navigationHelper;  }
 
   public ContactHelper getContactHelper() { return contactHelper;  }
 }
